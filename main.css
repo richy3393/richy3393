@@ -1,0 +1,186 @@
+* {
+	/*border:1px dashed yellow;*/
+	background-color: #99d6ff;
+	border-radius:30px;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizzing: border-box;
+	-mx-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*{
+	font-family: 'Philosopher', sans-serif;;
+}
+footer{
+	color:red;
+	position:fixed;
+	bottom:0;
+}
+.grid {
+    margin: 0 auto;
+    max-width: 1920px;
+	max-height:1080;
+    width: 100%;
+}
+.row {
+	width: 100%;
+	display:flex;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col2  {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+.row {
+	width: 100%;
+	display:table;
+}
+
+}
+#click{
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	color:white;
+	padding:8px 8px 8px 3px;
+	/*margin:10px;*/
+	margin-bottom:10px;
+	background-color:red;
+	
+}
+#click:hover{
+	cursor:pointer;
+	background-color: white;
+    color: red;
+}
+#click:active{
+	background-color: white;
+    color: red;
+	
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #818181; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color:#818181;
+    color: red;
+    display: block;
+    transition: 0.3s
+}
+
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+li a:active { 
+    background-color: white;
+    color: red;
+}
+.active{
+	background-color: white;
+    color: red;
+}
+#content{
+	text-align:left;
+	margin:auto;
+	background-color:red;
+	color:white;
+	word-wrap: break-word;
+}
+#content p{
+	background-color:red;
+	padding:10px;
+}
+#content ul{
+	background-color:red;
+}
+#content li{
+	background-color:red;
+	
+}
+#content h2{
+	background-color:red;
+	padding:10px;
+}
+#content h3{
+	background-color:red;
+	padding:10px;}
+#content h4{
+	background-color:red;
+	padding:10px;}
+#header{
+	max-height: 100px;
+	background-color: red;
+	margin-bottom: 10px;
+	width:100%;
+	color:white;
+	word-wrap: break-word;
+}
+#header a{
+	background-color:red;
+	float:right;
+	margin-right:5px;
+	padding:8px;
+	margin-bottom:15px;
+	color:white;
+}
+#header h2{
+	font-family: 'Orbitron', sans-serif;
+	background-color:red;
+	margin-left:5px;
+	padding:15px;
+	margin-bottom:15px;
+}
+ul.skills{
+    list-style-type:square;
+    color:white;
+}
