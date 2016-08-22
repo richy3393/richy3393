@@ -22,7 +22,7 @@ footer{
 .grid {
     margin: 0 auto;
     max-width: 1920px;
-	max-height:1080;
+	max-height:1080px;
     width: 100%;
 }
 .row {
@@ -54,7 +54,11 @@ footer{
 	width: 100%;
 	display:table;
 }
-
+footer{
+	color:red;
+	position:relative;
+    bottom:0;
+}
 }
 #click{
 	text-align:center;
