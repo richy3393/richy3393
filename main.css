@@ -1,7 +1,12 @@
-* {
+html {
 	/*border:1px dashed yellow;*/
-	background-color: #99d6ff;
-	border-radius:30px;
+	background-image: url(SoL.jpg);
+	background-repeat: no-repeat;
+	background-color:black;
+	background-position:center;
+	
+	
+	
 }
 
 *{
@@ -9,12 +14,13 @@
 	-moz-box-sizzing: border-box;
 	-mx-box-sizing: border-box;
 	box-sizing: border-box;
+	border-radius:30px;
 }
 
 *{
 	font-family: 'Philosopher', sans-serif;;
 }
-footer{
+.footer{
 	color:red;
 	position:fixed;
 	bottom:0;
@@ -24,6 +30,7 @@ footer{
     max-width: 1920px;
 	max-height:1080px;
     width: 100%;
+	
 }
 .row {
 	width: 100%;
@@ -54,7 +61,8 @@ footer{
 	width: 100%;
 	display:table;
 }
-footer{
+
+.footer{
 	color:red;
 	position:relative;
     bottom:0;
@@ -178,7 +186,7 @@ li a:active {
 	margin-bottom:15px;
 	color:white;
 }
-#header h2{
+#name{
 	font-family: 'Orbitron', sans-serif;
 	background-color:red;
 	margin-left:5px;
