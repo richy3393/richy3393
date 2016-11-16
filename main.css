@@ -77,8 +77,7 @@ html {
 }
 #click:hover{
 	cursor:pointer;
-	background-color: white;
-    color: red;
+	
 }
 #click:active{
 	background-color: white;
@@ -125,7 +124,7 @@ html {
     margin-left: 50px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+/* On smaller screens*/
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -146,25 +145,22 @@ li a:active {
 	word-wrap: break-word;
 }
 #content p{
-	background-color:red;
 	padding:10px;
 }
-#content ul{
-	background-color:red;
-}
+
 #content li{
-	background-color:red;
+	padding:5px;
 	
 }
 #content h2{
-	background-color:red;
+	
 	padding:10px;
 }
 #content h3{
-	background-color:red;
+	
 	padding:10px;}
 #content h4{
-	background-color:red;
+	
 	padding:10px;}
 #header{
 	max-height: 100px;
