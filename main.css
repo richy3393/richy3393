@@ -1,7 +1,6 @@
-html {
+body {
 	/*border:1px dashed yellow;*/
-	background-image: url(SoL.jpg);
-	background-repeat: no-repeat;
+	background-image: url(website-background.jpg);
 	background-color:black;
 	/*background-position:center;*/
 	
@@ -20,11 +19,7 @@ html {
 *{
 	font-family: 'Philosopher', sans-serif;;
 }
-.footer{
-	color:white;
-	position:fixed;
-	bottom:0;
-}
+
 .grid {
     margin: 0 auto;
     max-width: 1920px;
@@ -87,7 +82,7 @@ html {
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
+    width: 0; /* 0 width - changes when clicked */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0;
