@@ -49,12 +49,13 @@ body {
     [class*="col-"] {
         width: 100%;
     }
-.col-2 {width: 16.66%;
-}
 
 .row {
 	width: 100%;
 	display:table;
+/* Changes the class click to a col-2 on mobiles */
+}
+#click{width: 16.66%;
 }
 
 }
@@ -63,11 +64,10 @@ body {
 	text-align:center;
 	text-decoration:none;
 	display:block;
-	color:white;
-	padding:8px 8px 8px 3px;
-	/*margin:10px;*/
+	color:#232222;
+	padding:10px;
 	margin-bottom:10px;
-	background-color:red;
+	background-color: #f1f1f1;
 	
 }
 /*Nav button when hovering over */
@@ -77,8 +77,8 @@ body {
 }
 /* Nav button when clicked */
 #click:active{
-	background-color: white;
-    color: red;
+	background-color: #f1f1f1;
+    color:#232222;
 	
 }
 /* The side navigation menu */
@@ -102,15 +102,13 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: red;
+    color: #f1f1f1;
     display: block;
     transition: 0.3s
 }
 
 
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
-}
+
 
 /* Position and style the close button (top right corner) */
 .closebtn {
@@ -126,20 +124,14 @@ body {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-li a:active { 
-    background-color: white;
-    color: red;
-}
-.active{
-	background-color: white;
-    color: red;
-}
+/*Content boxes */
 #content{
 	text-align:left;
 	margin:auto;
-	background-color:red;
-	color:white;
+	color:#f1f1f1;
 	word-wrap: break-word;
+	border-style: double;
+	border-color:#f1f1f1;
 }
 #content p{
 	padding:10px;
@@ -149,40 +141,33 @@ li a:active {
 	padding:5px;
 	
 }
-#content h2{
+#content h2, h3, h4{
 	
 	padding:10px;
 }
-#content h3{
-	
-	padding:10px;}
-#content h4{
-	
-	padding:10px;}
+
 #header{
 	max-height: 100px;
-	background-color: red;
 	margin-bottom: 10px;
 	width:100%;
-	color:white;
+	color:#f1f1f1;
 	word-wrap: break-word;
 }
-#header a{
-	background-color:red;
+/* email link */
+#email a{
+	/*background-color:#f1f1f1;*/
 	float:right;
 	margin-right:5px;
 	padding:8px;
 	margin-bottom:15px;
-	color:white;
+	color:#f1f1f1;
 }
 #name{
 	font-family: 'Orbitron', sans-serif;
-	background-color:red;
-	margin-left:5px;
-	padding:15px;
+	padding:10px;
 	margin-bottom:15px;
 }
 ul.skills{
     list-style-type:square;
-    color:white;
+    color:#f1f1f1;
 }
